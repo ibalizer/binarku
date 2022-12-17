@@ -1,0 +1,18 @@
+warning: LF will be replaced by CRLF in app/src/main/java/com/example/binarku/MainActivity.kt.
+The file will have its original line endings in your working directory
+[1mdiff --git a/app/src/main/java/com/example/binarku/MainActivity.kt b/app/src/main/java/com/example/binarku/MainActivity.kt[m
+[1mindex 9185e2a..f7820f9 100644[m
+[1m--- a/app/src/main/java/com/example/binarku/MainActivity.kt[m
+[1m+++ b/app/src/main/java/com/example/binarku/MainActivity.kt[m
+[36m@@ -7,8 +7,8 @@[m [mclass MainActivity : AppCompatActivity() {[m
+     override fun onCreate(savedInstanceState: Bundle?) {[m
+         super.onCreate(savedInstanceState)[m
+         setContentView(R.layout.activity_main)[m
+[31m-    }[m
+ [m
+[31m-    println ("Hello, World!")[m
+[32m+[m[32m        println("")[m
+[32m+[m[32m    }[m
+ [m
+ }[m
+\ No newline at end of file[m
